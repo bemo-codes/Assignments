@@ -1,0 +1,33 @@
+Q5. Explain the concept of a classification report in machine learning. Why is it used and what type of models require it?
+
+Answer:
+
+A classification report is a performance evaluation tool used to measure how well a classification machine learning model predicts different classes.
+
+It provides the following important metrics:
+
+Precision: Measures how many of the samples predicted as a particular class are actually correct.
+Recall: Measures how many of the actual samples of a class were correctly identified.
+F1-Score: Provides a balance between precision and recall.
+Support: Shows the number of actual samples belonging to each class.
+Accuracy: Shows the percentage of total predictions that are correct.
+Why is a classification report used?
+
+A classification report is used to:
+
+Evaluate the performance of a classification model.
+Understand how well the model predicts each class.
+Identify classes where the model performs poorly.
+Compare different models using precision, recall, and F1-score.
+What type of models require it?
+
+Classification reports are used with classification models, such as:
+
+Logistic Regression
+K-Nearest Neighbors (KNN)
+Decision Tree
+Random Forest
+Support Vector Machine (SVM)
+Naive Bayes
+
+They are generally not used for regression models, because regression models predict continuous numerical values rather than classes.
